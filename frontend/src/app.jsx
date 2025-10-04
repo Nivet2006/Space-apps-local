@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import Viewer from "./components/Viewer";
-import AnnotationPanel from "./components/AnnotationPanel";
-import SearchBar from "./components/SearchBar";
+import Viewer from "./components/viewer.jsx";
+import AnnotationPanel from "./components/annotationpanel.jsx";
+import SearchBar from "./components/searchbar.jsx";
 
 export default function App() {
   const [annotations, setAnnotations] = useState([]);
