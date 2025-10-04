@@ -1,13 +1,19 @@
 nasa-visual-explorer/
+│── api/                 # Serverless backend (Vercel)
+│   ├── search.js
+│   └── annotate.js
+│
 │── frontend/
-│   ├── src/
-│   ├── public/
+│   ├── index.html
+│   ├── vite.config.js
 │   ├── package.json
-│   └── vite.config.js or react config
+│   └── src/
+│       ├── main.jsx
+│       ├── App.jsx
+│       ├── components/
+│       │    ├── Viewer.jsx          # OpenSeadragon viewer
+│       │    ├── AnnotationPanel.jsx # add + list annotations
+│       │    └── SearchBar.jsx       # coordinate/name search
+│       └── styles.css
 │
-│── api/
-│   ├── search.js       # /api/search endpoint
-│   ├── annotate.js     # /api/annotate endpoint
-│
-├── package.json        # Root config for Vercel
-└── README.md
+└── package.json   # root (just for vercel build commands)
