@@ -1,16 +1,13 @@
 nasa-visual-explorer/
 │── frontend/
-│   ├── api/                # serverless API routes
-│   │    ├── search.js
-│   │    └── annotate.js
-│   ├── public/
-│   │    └── moon.jpg       # example NASA image
 │   ├── src/
-│   │    ├── App.js
-│   │    ├── components/
-│   │    │    ├── Viewer.js
-│   │    │    ├── AnnotationPanel.js
-│   │    │    └── SearchBar.js
+│   ├── public/
 │   ├── package.json
+│   └── vite.config.js or react config
 │
+│── api/
+│   ├── search.js       # /api/search endpoint
+│   ├── annotate.js     # /api/annotate endpoint
+│
+├── package.json        # Root config for Vercel
 └── README.md
