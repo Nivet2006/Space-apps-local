@@ -9,7 +9,7 @@ nasa-visual-explorer/
 │   ├── package.json
 │   └── src/
 │       ├── main.jsx
-│       ├── App.jsx
+│       ├── app.jsx
 │       ├── components/
 │       │    ├── Viewer.jsx          # OpenSeadragon viewer
 │       │    ├── AnnotationPanel.jsx # add + list annotations
