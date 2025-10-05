@@ -12,7 +12,7 @@ export default function App() {
 
   return (
     <div className="app">
-      <h1>🚀 NASA Visual Explorer</h1>
+      <h1>Web Viewer</h1>
       <SearchBar />
       <Viewer annotations={annotations} onAddAnnotation={handleAddAnnotation} />
       <AnnotationPanel annotations={annotations} />
