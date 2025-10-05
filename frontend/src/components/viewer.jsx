@@ -10,7 +10,7 @@ export default function Viewer({ annotations, onAddAnnotation }) {
       prefixUrl: "https://openseadragon.github.io/openseadragon/images/",
       tileSources: {
         type: "image",
-        url: "https://hirise-pds.lpl.arizona.edu/PDS/ESP_024567_1785/DZI/ESP_024567_1785_RED.dzi" // Sample NASA-like deep zoom image
+        url: "https://nasa.github.io/open-data-examples/BlueMarble/BlueMarble-8k.dzi" // CORS-enabled NASA DZI
       }
     });
 
